@@ -10,12 +10,12 @@ VREM (Virtual Rat Experimental Model) is a computational research workflow for g
 
 | Document                                                     | Contents                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [`FeatureComput_Complete_EN_v2.html`](FeatureComput_Complete_EN_v2.html) | Nine feature engineering modules: QSAR, QSIIR, drugs/pathways, KEGG, GO biological process, GO cellular component, GO molecular function, data cleaning and export. |
+| [`FeatureComput.html`](FeatureComput.html) | Nine feature engineering modules: QSAR, QSIIR, drugs/pathways, KEGG, GO biological process, GO cellular component, GO molecular function, data cleaning and export. |
 | [`data_inspect_clean_split.html`](data_inspect_clean_split.html) | Nine notebooks (01–09): variable processing, dataset assembly, compound clustering, experimental analysis, heatmaps, key genes/enrichment, networks, and training-data splitting. |
-| [`01 VREM.html`](01%20VREM.html)                             | PyTorch model architecture and separate checkpoint-based drug simulation/testing source reference. |
+| [`VREM.html`](VREM.html)                             | PyTorch model architecture and separate checkpoint-based drug simulation/testing source reference. |
 | [`VREM_QSAR(basline models)_Training&Testing.html`](VREM_QSAR%28basline%20models%29_Training%26Testing.html) | Integrated VREM architecture/simulation and ten QSAR baseline / generated-data testing and evaluation notebooks (10–19). The filename retains the original spelling `basline` for compatibility. |
 | [`Visualization.html`](Visualization.html)                   | Nine visualization and interpretation notebooks (22–30): survival/time-to-event analysis, model correlation, boxed-warning drugs, feature interpretation, tolcapone and nefazodone, MoME weights, DILI classification, and the 27-drug analysis. |
-| [`05 extra.html`](05%20extra.html)                           | FDA reporting, drug safety labeling, and evidence-source visualizations from `26 FDA data.ipynb`. |
+| [`extra.html`](Extra.html)                           | FDA reporting, drug safety labeling, and evidence-source visualizations from `26 FDA data.ipynb`. |
 
 The `01 VREM.html` content is also represented within the integrated baseline report; these are alternative entry points rather than distinct model-training implementations. Numbered notebook identifiers reflect the source archive and are not a guarantee that every intermediate numbered notebook is included.
 
